@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="" href="register.css">
+    <link rel="icon shortcut" type="x-icon" href="content/logo.png">
+    <title>Register | Karwitu Corps</title>
+    <script src="https://cdn.tailwindcss.com/">
+      
+    </script>
+  </head>
+  <body>
+    <div class="items-center justify-center flex flex-row min-h-screen">
+      <header class="stroke-white place-items-center flex-row bg-gray-900" style="width: 500px; height: 700px; border-radius: 25px;">
+        <br>
+        <h1 class="text-4xl text-white font-bold">Register</h1>
+
+        <form>
+          <br>
+          <br>
+          <br>
+          <input type="email" name="email" placeholder="example@gmail.com" class="font-bold hover:transition-all duration-1 hover:text-white hover:bg-gray-600 text-center justify-center flex flex-row" style="width: 400px; height: 50px; border-radius:5px;" value="">
+          <br>
+          <input type="text" name="username" placeholder="Username" class="font-bold hover:transition-all duration-1 hover:text-white hover:bg-gray-600 text-center justify-center flex flex-row stroke-cyan-700" style="width: 400px; height:50px; border-radius: 5px;">
+          <br>
+          <div>
+            <input id="Inputu" type="password" value="" placeholder="Password" class="font-bold hover:transition-all duration-1 hover:text-white hover:bg-gray-600 text-center justify-center flex flex-row" style="width: 400px; height:50px; border-radius:5px;">
+            <br>
+            <input type="checkbox" name="showpass" class="w-4 h-4 text-green-600 bg-gray-100 border-gray-300 rounded focus:ring-green-500 dark:focus:ring-green-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" onclick="passshow()">
+            <label for="showpass" class="text-white font-bold">Show Password</label>
+          </div>
+          <br>
+          <div class="text-center justify-center flex flex-row">
+            <button style="width: 120px; height:52px; border-radius: 7px;" class="text-white font-bold transition ease-in-out delay-150 bg-blue-700 hover:-translate-y-1 hover:scale-110 hover:bg-blue-400 duration-300" onclick="registry()">Register</button>
+          </div>
+        </form>
+    </header>
+    </div>
+    <script src="register.js">
+      
+    </script>
+  </body>
+</html>

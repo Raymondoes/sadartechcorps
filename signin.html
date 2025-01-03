@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login | Karwitu Corps</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="" href="login.css">
+    <link rel="icon shortcut" type="x-icon" href="content/logo.png">
+    <script src="https://cdn.tailwindcss.com/">
+      
+    </script>
+  </head>
+  <head>
+    <div class="justify-center items-center flex flex-row min-h-screen">
+      <header style="width:500px; height:700px; border-radius:20px;" class="bg-gray-800 place-items-center flex-row">
+        <br>
+        <br>
+       <h1 class="text-center text-white font-bold text-4xl">Login</h1>
+        <br>
+        <br>
+        <br>
+        <div id="email-container">
+          <input type="email" name="email" value="" placeholder="example@gmail.com" class="font-bold flex flex-row hover:bg-gray-600 hover:text-white hover:transition-all duration-1 text-center justify-center" style="width:400px; height:50px; border-radius:5px;">
+        </div>
+        <br>
+        <div id="password-container">
+          <input type="password" id="passwod" value="" placeholder="Password" class="font-bold flex flex-row hover:bg-gray-600 hover:text-white hover:transition-all duration-1 text-center justify-center" style="width:400px; height:50px; border-radius:5px;">
+          <br>
+          <input type="checkbox" name="showpass" value="" onclick="showpasss()">
+          <label for="" class="font-bold text-white">Show Password</label>
+        </div>
+        <br>
+        <div>
+          <button type="login" class="transition ease-in-out delay-150 bg-blue-700 hover:-translate-y-1 hover:scale-110 hover:bg-blue-400 duration-300 font-bold text-white" style="border-radius:7px; width:120px; height:52px;" onclick="redirect()">Login</button>
+        </div>
+      </header>
+    </div>
+    <script src="login.js">
+      
+    </script>
+  </head>
+</html>
